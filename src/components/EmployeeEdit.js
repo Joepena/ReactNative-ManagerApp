@@ -24,7 +24,6 @@ class EmployeeEdit extends Component {
                 <EmployeeForm {...this.props} />
                 <CardSection>
                     <Button onPress={this.onButtonPress.bind(this)}>Save Changes</Button>
-                    <Button onPress={}>Delete</Button>
                 </CardSection>
             </Card>
         );
